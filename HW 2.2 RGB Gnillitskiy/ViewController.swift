@@ -24,9 +24,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         viewRGB.backgroundColor = .black
         viewRGB.layer.cornerRadius = 10
-        // Выдает ошибку в констреинтах
-        
-        
     }
     
     @IBAction func mixColor(_ sender: UISlider) {
